@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    margin: 0 auto;
+    background-color: #e0c38c;
+}
+#video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 280px;
+    max-height: 70%;
+    background-color: black;
+    position: fixed;
+    display: block;
+}
+#class{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-gap: 10px;
+    margin: 0 15px 15px;
+}
+.es{
+    border: solid 1px blue;
+    border-radius: 15px;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 2em;
+    color: black;
+}
